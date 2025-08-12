@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>O Fim das Dores da Menopausa Começa na Sua Parede</title>
+    <meta name="description" content="Descubra o segredo do Pilates na Parede para transformar seu corpo e mente durante a menopausa. Participe do nosso desafio e desbloqueie uma nova energia para a vida." />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://verutydecor-spec.github.io/paginadevendas/">
+    <meta property="og:title" content="O Fim das Dores da Menopausa Começa na Sua Parede">
+    <meta property="og:description" content="Descubra o segredo do Pilates na Parede para transformar seu corpo e mente durante a menopausa. Participe do nosso desafio e desbloqueie uma nova energia para a vida.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1617865298441-28527a4422e6?w=1200&h=630&fit=crop&q=80">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://verutydecor-spec.github.io/paginadevendas/">
+    <meta property="twitter:title" content="O Fim das Dores da Menopausa Começa na Sua Parede">
+    <meta property="twitter:description" content="Descubra o segredo do Pilates na Parede para transformar seu corpo e mente durante a menopausa. Participe do nosso desafio e desbloqueie uma nova energia para a vida.">
+    <meta property="twitter:image" content="https://images.unsplash.com/photo-1617865298441-28527a4422e6?w=1200&h=630&fit=crop&q=80">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700;800;900&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+              display: ['Poppins', 'sans-serif'],
+            },
+            colors: {
+              'brand-purple': {
+                light: '#E9D5FF',
+                DEFAULT: '#8B5CF6',
+                dark: '#7C3AED',
+              },
+              'brand-gold': '#FBBF24',
+              'brand-background': '#FBF9FF', // Fundo lavanda bem claro
+              'brand-text': '#4B5563',
+              'brand-text-dark': '#1F2937',
+              'brand-text-light': '#6B7280',
+              'brand-border': '#E5E7EB',
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      @keyframes slide-in {
+        from {
+          transform: translateX(-120%);
+          opacity: 0;
+        }
+        to {
+          transform: translateX(0);
+          opacity: 1;
+        }
+      }
+      .animate-slide-in {
+        animation: slide-in 0.5s ease-out forwards;
+      }
+      @keyframes fade-in {
+        from { opacity: 0; transform: translateY(20px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+      .animate-fade-in { animation: fade-in 0.6s ease-out forwards; }
+      
+      @keyframes scale-in-deep {
+        from { opacity: 0; transform: scale(0.9); }
+        to { opacity: 1; transform: scale(1); }
+      }
+      .animate-scale-in-deep { animation: scale-in-deep 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards; }
+
+      @keyframes pulse-glow {
+        0%, 100% { box-shadow: 0 0 0 0 rgba(124, 58, 237, 0.4); }
+        50% { box-shadow: 0 0 20px 10px rgba(124, 58, 237, 0); }
+      }
+      .animate-pulse-glow { animation: pulse-glow 2s infinite; }
+      
+      @keyframes pulse-strong {
+        0%, 100% { transform: scale(1); }
+        50% { transform: scale(1.05); }
+      }
+      .animate-pulse-strong { animation: pulse-strong 1.5s infinite ease-in-out; }
+
+      @keyframes unlock-rotate {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(-15deg); }
+      }
+      .animate-unlock-rotate {
+        animation: unlock-rotate 0.4s ease-out forwards;
+      }
+      
+      html {
+        scroll-behavior: smooth;
+      }
+
+      .bg-geometric-pattern {
+        background-color: #111827;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0 0 40 40'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%239CA3AF' fill-opacity='0.1'%3E%3Cpath d='M0 38.59l2.83-2.83 1.41 1.41L1.41 40H0v-1.41zM0 1.4l2.83 2.83 1.41-1.41L1.41 0H0v1.41zM38.59 40l-2.83-2.83 1.41-1.41L40 38.59V40h-1.41zM40 1.41l-2.83 2.83-1.41-1.41L38.59 0H40v1.41zM20 18.6l2.83-2.83 1.41 1.41L21.41 20l2.83 2.83-1.41 1.41L20 21.41l-2.83 2.83-1.41-1.41L18.59 20l-2.83-2.83 1.41-1.41L20 18.59z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+      }
+    </style>
+     <link rel="preload" href="https://cdn.pixabay.com/audio/2022/03/15/audio_2b28b0821f.mp3" as="audio">
+
+<link rel="stylesheet" href="/index.css">
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.1.1/",
+    "react": "https://esm.sh/react@^19.1.1",
+    "react-dom/": "https://esm.sh/react-dom@^19.1.1/"
+  }
+}
+</script>
+  <script type="module" crossorigin src="/assets/index-C5TbbrBe.js"></script>
+</head>
+  <body class="bg-brand-background font-sans">
+    <div id="root"></div>
+</body>
+</html>
